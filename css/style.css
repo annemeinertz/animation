@@ -1,0 +1,57 @@
+/**
+ * file: style.css
+ * purpose: effects ...
+ **/
+@keyframes example {
+    from{
+      color: pink;
+        font-size: 5rem;
+    }
+    to{
+       color: blue;
+        font-size: 5rem;
+    }
+}
+body {
+	background-color: pink;
+    width: 100%; 
+}
+article {
+    margin: 5% 20% 5% 20%;
+    text-align: justify;
+}
+.overskrift {
+font-size: 3rem;
+      animation-name: example;
+    animation-duration: 4s;
+    text-align: center;
+    
+}
+.paragraf {
+    font-size: 16px;
+    animation-name: example1;
+    animation-duration: 3s;
+   
+
+}
+@keyframes example1 {
+    from{
+      color: black;
+        font-size: 22px;
+    }
+    to{
+       color: white;
+        font-size: 26px;
+    }
+}
+      @keyframes example2 {
+        from {transform: translateX(900px);}
+        to {transform: translateX(0);}
+        }  
+    
+ .billede {
+        animation-name: example2;
+        animation-duration: 4s;    
+    }
+  
+
